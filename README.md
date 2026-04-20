@@ -25,7 +25,7 @@ Writing clean, maintainable HTML and CSS
 Problem-solving and debugging UI issues
 
 🌐 Live Demo
-()
+(https://originalfalala.github.io/project_landing_page/)
 
 📸 Assets
 Images used are sourced from free-to-use platforms such as Unsplash, Pexels, and Pixabay.
