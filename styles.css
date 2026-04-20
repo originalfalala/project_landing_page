@@ -201,3 +201,16 @@ div.blue_container button{
     height: 30px;
 }
 
+body .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 40px;
+    
+}
+
+body .footer p{
+    color: #F9FAF8;
+    font-size: 18px;
+}
