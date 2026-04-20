@@ -1,0 +1,164 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #131519;
+}
+
+.section1{
+    display: flex;
+    background-color: #1F2937;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.header_list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.header_list li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+p{
+    margin: 0%;
+    text-wrap: wrap;
+    font: Roboto, Noto Sans, Inter, arial;
+}
+
+p.subject{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+p.description{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+div.section1 div.header{
+    display: flex; 
+    justify-content: center;
+    gap: 330px;
+    padding-top: 10px;
+}
+
+.header_list{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+div.section1 div.lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+    width: 1000px;
+
+}
+
+.content{
+    display: flex;
+    max-width: 410px;
+    height: auto; 
+    flex-grow: 1;
+    flex-direction: column;
+
+
+}
+
+.lower img{
+    flex-grow: 1;
+    max-width: 410px;
+    height: auto;
+    background-color: gray;
+}
+
+
+.content button{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.header_logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+
+.section2{
+    padding: 60px 0px; 
+    background-color: white;
+}
+
+div.section2 div.header{
+    margin-bottom: 60px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+div.section2 div.lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 18px;
+    color: #1F2937;
+    padding-bottom: 20px;
+
+}
+
+div.lower div.box{
+    width: 150px; 
+    height: auto; 
+}
+
+div.lower div.box img{
+    width: 150px; 
+    height: 150px; 
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+}
+
+div.section3{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 80px 0; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.section3 p.top{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+    max-width: 760px;
+
+}
+
+div.section3 p.bottom{
+    text-align: right;
+    padding-left: 550px;
+    font-weight: 900;
+    padding-right: 40px;
+    font-size: 18px;
+}
