@@ -162,3 +162,42 @@ div.section3 p.bottom{
     padding-right: 40px;
     font-size: 18px;
 }
+
+div.section4{
+    display: flex; 
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+div.section4 div.blue_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 800px;
+    height: 120px; 
+    border-radius: 5px;
+}
+
+div.paragraph_container p.top{
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+div.paragraph_container p.bottom{
+    color: #E5E7EB;
+}
+
+div.blue_container button{
+    color: #E5E7EB;
+    font-weight: 600;
+    background-color: #3882f6;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
